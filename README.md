@@ -61,12 +61,13 @@ To Check in Postman follow this:
 
 <img width="895" alt="image" src="https://github.com/Naveenreddy-bot/Translator-Azure-Backend/assets/123338659/30319f82-68fb-4196-8b78-fcd5b3152785">
 
-<img width="895" alt="image" src="https://github.com/Naveenreddy-bot/Translator-Azure-Backend/assets/123338659/30319f82-68fb-4196-8b78-fcd5b3152785">
+[3C72B166-7A0E-4C02-B9BE-A564AE8B7F91_1_105_c](https://github.com/Naveenreddy-bot/Translator-Azure-Backend/assets/123338659/f7cde3e3-aa43-429e-b7b7-9d5c6ab3eb6a)
 
 Contributing
 Contributions are welcome! If you find any issues or want to add new features to the API, feel free to open a pull request.
 
-License
+License!
+
 This project is licensed under the MIT License.
 
 
