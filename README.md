@@ -1,6 +1,9 @@
 
 # Translator-Azure-Backend
 
+
+Version : 0.0.1 
+
 Backend API Documentation
 This repository contains the code for a backend API developed using Express. The API provides translation functionality using the Microsoft Translator service.
 
@@ -41,16 +44,22 @@ Endpoint: /translate
 
 Method: POST
 
-Request Body:
+Request 
 
-json
+Body: json
 {
   "text": "Enter the text to be translated in Hindi"
 }
+Headers:
+Content-Type: application/json
 
 Response:
 
-json
+Status Code: 200 (OK)
+
+Data Encoding: JSON
+
+Response Body:
 {
   "translation": "Translated text"
 }
@@ -61,6 +70,12 @@ To Check in Postman follow this:
 
 <img width="895" alt="image" src="https://github.com/Naveenreddy-bot/Translator-Azure-Backend/assets/123338659/30319f82-68fb-4196-8b78-fcd5b3152785">
 
+
+Error Handling:
+
+If the request body is missing the required fields (text or to), the API will respond with a 400 (Bad Request) status code and an error message indicating the missing parameter(s).
+
+If there is an error during translation or communication with the Microsoft Translator service, the API will respond with a 500 (Internal Server Error) status code and an error message.
 
 
 Contributions are welcome! If you find any issues or want to add new features to the API, feel free to open a pull request.
