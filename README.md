@@ -11,26 +11,25 @@ git clone https://github.com/Naveenreddy-bot/Translator-Azure-Backend.git
 
 Install the dependencies:
 
-shell
-Copy code
-cd your-repo
+cd Translator-Azure-Backend
 npm install
+
+
 Set up the environment variables:
 
 Create a .env file in the root directory.
 
 Add the following content to the .env file:
 
-makefile
-Copy code
+makefile .env
 API_KEY=your-api-key
+
+
 Replace your-api-key with your Microsoft Translator API key.
 
-Start the server:
+Start the server: npm run start
 
-shell
-Copy code
-npm run start
+
 The server will start running at http://localhost:3001.
 
 API Endpoints
