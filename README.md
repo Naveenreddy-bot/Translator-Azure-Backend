@@ -2,7 +2,7 @@
 # Translator-Azure-Backend
 
 
-Version : 0.0.1 
+Version : 1.0.0
 
 Backend API Documentation
 This repository contains the code for a backend API developed using Express. The API provides translation functionality using the Microsoft Translator service.
