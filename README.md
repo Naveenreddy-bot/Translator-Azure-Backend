@@ -42,17 +42,20 @@ Endpoint: /translate
 Method: POST
 
 Request Body:
+
 json
 {
-  "text": "Enter the text to be translated in Hindi",
+  "text": "Enter the text to be translated in Hindi"
 }
 
 Response:
+
 json
 {
   "translation": "Translated text"
 }
-The translation field contains the translated text in the target language.
+
+The translation field contains the translated text in the Hindi language.
 
 To Check in Postman follow this:
 
