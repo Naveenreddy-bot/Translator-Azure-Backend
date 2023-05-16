@@ -33,10 +33,12 @@ Start the server: npm run start
 
 The server will start running at http://localhost:3001.
 
-API Endpoints
-Translate
+API Endpoints Translate
+
 Endpoint: /translate
+
 *** This is will only convert in Hindi ***
+
 Method: POST
 
 Request Body:
