@@ -36,14 +36,13 @@ The server will start running at http://localhost:3001.
 API Endpoints
 Translate
 Endpoint: /translate
-
+*** This is will only convert in Hindi ***
 Method: POST
 
 Request Body:
 json
 {
-  "text": "Enter the text to be translated",
-  "to": "Enter the target language code"
+  "text": "Enter the text to be translated in Hindi",
 }
 
 Response:
